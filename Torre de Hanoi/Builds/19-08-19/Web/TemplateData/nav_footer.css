@@ -1,0 +1,51 @@
+/* Overrides do rea-geral.css */
+nav .logo {
+  position: static;
+}
+nav > .container {
+  position: static;
+}
+
+/* Botão Pular para Conteúdo Principal */
+
+nav .logo .pularNavegacao {
+  background-color: white;
+  color: #607989;
+}
+
+/* Caixa do Logotipo */
+
+nav .logo img {
+  background-color: white;
+}
+
+/* Botões do Navbar */
+
+nav .nav-link {
+  color: #607989;
+  background-color: white;
+}
+
+nav .nav-link:focus,
+nav .nav-link:hover,
+nav .nav-link[aria-expanded="true"] {
+  background-color: white;
+  color: #607989;
+}
+
+/* Rodapé */
+footer .btn {
+  white-space: nowrap;
+}
+
+
+footer, footer .aval-rea .btn-secondary {
+  background-color: white;
+  color: #354551;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1440px) {
+  nav .logo {
+    width: 170px;
+  }
+}
